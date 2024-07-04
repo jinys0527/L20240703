@@ -20,8 +20,8 @@ void AMyHUD::DrawHUD()
 {
 	Super::DrawHUD();
 
-	int32 CenterX = Canvas->SizeX / 2;
-	int32 CenterY = Canvas->SizeY / 2;
+	CenterX = Canvas->SizeX / 2;
+	CenterY = Canvas->SizeY / 2;
 	
 	APlayerController* PlayerController = UGameplayStatics::GetPlayerController(GetWorld(), 0);
 	if (PlayerController)

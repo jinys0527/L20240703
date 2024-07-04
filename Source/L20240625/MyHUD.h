@@ -20,6 +20,12 @@ public:
 	virtual void DrawHUD() override;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, category = "Crosshair")
+	int32 CenterX;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, category = "Crosshair")
+	int32 CenterY;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, category = "Crosshair")
 	int32 CrosshairMaxOpen;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, category = "Crosshair")
